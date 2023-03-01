@@ -18,14 +18,11 @@ nav ul {
     display: flex;
     flex-direction: row;
     color: white;
-    column-gap: 50px;
-    justify-content: center;
-    align-items: center;
 }
 
 nav ul li {
     list-style: none;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 nav ul li a {
@@ -34,13 +31,13 @@ nav ul li a {
 }
 
 header {
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
-    background: #0F8B8D;
+    background-image: url(image/coffee-header.png);
     z-index: 1;
     width: 100%;
-    height: 50px;
+    height: 600px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -55,7 +52,7 @@ header h2 {
     color: white;
 }
 .logo img {
-    width: 350px;
+    width: 150px;
 }
 header h1 {
     width: 493px;
