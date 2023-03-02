@@ -40,6 +40,14 @@ main section h2 {
     color: white;
     background-image: url(image/coffee-background.png);
 }
+.box a {
+    text-decoration: none;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+} 
 .box img {
     width: 150px;
 }
