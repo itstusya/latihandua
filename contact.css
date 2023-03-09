@@ -1,0 +1,37 @@
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+    font-size: 15px;
+}
+section.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+}
+section.contact h2 {
+    font-size: 20px;
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+.box div {
+    display: flex;
+    flex-direction: row;
+    column-gap: 100px;
+    align-items: center;
+}
+.box div p {
+    width: 200px;
+    white-space: nowrap;
+}
+.contact h1 {
+    color: #0F8B8D;
+    padding-bottom: 24px;
+    font-size: 22px;
+}
+.contact input {
+    padding: 20px;
+}
